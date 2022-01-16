@@ -113,3 +113,25 @@ const helloPromise = () => {
  .then (() => console.log ("hola"))
  .catch (error  => console.log (error,"error 404"))
  
+//  "clases es6"
+
+ class calculadora {
+     constructor (){
+         this.valueA =0;
+         this.valueB = 0;
+     }
+     sum(valueA,valueB){
+         this.valueA = valueA;
+         this.valueB = valueB;
+         return this.valueA + this.valueB
+     }
+     rest(valueA,valueB){
+        this.valueA = valueA;
+        this.valueB = valueB;
+        return this.valueA - this.valueB
+    }
+ }
+ 
+ const calc= new calculadora();
+ console.log(calc.rest(58,40))
+ console.log(calc.sum(58,40))
