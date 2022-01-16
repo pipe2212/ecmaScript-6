@@ -133,5 +133,5 @@ const helloPromise = () => {
  }
  
  const calc= new calculadora();
- console.log(calc.rest(58,40))
- console.log(calc.sum(58,40))
+ console.log(calc.rest(58,40));
+ console.log(calc.sum(58,40));
