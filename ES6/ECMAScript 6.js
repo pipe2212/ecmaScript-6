@@ -133,5 +133,30 @@ const helloPromise = () => {
  }
  
  const calc= new calculadora();
- console.log(calc.rest(58,40));
- console.log(calc.sum(58,40));
+ console.log(calc.rest(100,50));
+ console.log(calc.sum(280,25));
+
+//  exportar es6
+
+ import  hola  from "./module"
+ hola();
+
+//  generadores es6
+
+function* holaMundo () {
+ if (true) {
+    yield "hola, "
+ }
+ if (true) {
+     yield "mundo"
+ }
+};
+
+const generatorHola = holaMundo ();
+console.log (generatorHola.next().value);
+console.log (generatorHola.next().value);
+
+
+
+
+ 
