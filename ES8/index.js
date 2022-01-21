@@ -28,7 +28,7 @@ console.log (string.padEnd(7,"fin"));
 
  const helloWorld = () => {
     return new Promise ((resolve,reject) =>{
-        (true)
+        (false)
       ? setTimeout(() => resolve("hello World"), 3000)
       : reject ( new Error ("test Error"))   
     })

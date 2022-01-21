@@ -6,7 +6,7 @@ if (numbers.includes(10)) {
     console.log("si se encuentra el valor");
 }else {
     console.log ("no se encuentra");
-}
+};
 
 
 let base = 4;
